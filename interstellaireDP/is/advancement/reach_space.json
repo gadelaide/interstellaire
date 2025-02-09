@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": "Sky isn't the limit",
+    "description": "Reach space on a rocket",
+    "announce_to_chat": true
+  },
+  "parent": "is:aerospace_ingeneer",
+  "criteria": {
+    "in_space": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 650,
+                "max": 1000000
+              }
+            }
+          },
+          "vehicle": {
+            "type": "minecraft:trader_llama",
+            "nbt": "{Tags:[rocket]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}
