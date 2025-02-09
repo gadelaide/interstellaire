@@ -1,0 +1,25 @@
+advancements :
+- if going on this planet grant an advancements, add one
+
+world_gen :
+- add the code of the planet in dimension, dimension_type, world_gen, etc..
+
+function :
+- add a new section in rocket/check
+- change the range 0..n in one of the first lines
+- copy/paste almost every line in rocket/takeoff_init
+- add 2 lines in the "extand if planed added" in rocket/takeoff_loop
+- add effects in planets_effects
+
+predicates :
+- add a new predicates in planets with materials matching the rocket/check function
+- if the planet should have oxygen, add a new location_check in o2planets predicate
+- if the planet should have the same effect (gravity, max health,...) as overworld,... add in in_vanilla_like_planet predicate
+- add planets in the is_fuel/need_x predicate according to the gravity of the planet
+(to add a "x" create predicate has_x and need_x and add new lines to the function rocket/check)
+
+Space Navigation Handbook :
+- add the /trigger check_liftoff set (number matching the check function) command in the Space Navigation Handbook when clicking the planet
+
+Resource Pack :
+- add every traduction related to planets (matching rocket/check, ...)

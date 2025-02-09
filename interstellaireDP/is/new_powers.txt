@@ -1,0 +1,15 @@
+- advancements
+ - add the advancements to trigger the power
+
+- functions
+ - add a folder for the power with
+  - check to test if the player has enough level and set the cooldown
+  - give to crea_give the power
+  - init to remove the xp, and summon markers and other entities
+  - main if necessary
+  - reset if necessary to allow the player to use the power again immedietly (if it's a hold power)
+
+- loot tables
+ - add a loot table for the power
+ - add the power to the powers/all_powers
+ - add the power to the powers/random_(big/medium/little)_powers
