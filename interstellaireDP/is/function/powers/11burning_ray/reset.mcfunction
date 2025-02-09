@@ -1,0 +1,1 @@
+advancement revoke @p only is:powers/burning_ray

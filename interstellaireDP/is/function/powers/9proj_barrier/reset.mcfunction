@@ -1,0 +1,1 @@
+advancement revoke @p only is:powers/projectile_barrier

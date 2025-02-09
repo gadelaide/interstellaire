@@ -1,0 +1,1 @@
+loot give @s loot is:powers/explo_beam
