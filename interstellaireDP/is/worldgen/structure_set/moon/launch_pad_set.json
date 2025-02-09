@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "is:moon/launch_pad",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 841803432,
+      "spacing": 25,
+      "separation": 5
+    }
+  }
+  

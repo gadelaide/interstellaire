@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "blocks",
+    "pattern": [
+      "   ",
+      "GWG",
+      "RSN"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "W": {
+        "item": "minecraft:water_bucket"
+      },
+      "R": {
+        "item": "minecraft:redstone_block"
+      },
+      "S": {
+        "item": "minecraft:smooth_stone_slab"
+      },
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "result": {
+      "id": "minecraft:cow_spawn_egg",
+      "count": 1,
+      "components": {
+        "minecraft:custom_name": "{\"italic\":false,\"fallback\":\"Oxygen generator (lvl 3)\",\"translate\":\"block.minecraft.oxygen_generator_3\"}",
+        "minecraft:lore": [
+          "{\"fallback\":\"Can generate oxygen up to 1000 blocks\",\"translate\":\"block.minecraft.oxygen_generator_3.lore1\"}",
+          "{\"fallback\":\"(Might not work if in unloaded chunks)\",\"translate\":\"block.minecraft.oxygen_generator_3.lore2\"}"
+        ],
+        "minecraft:rarity": "rare",
+        "minecraft:custom_model_data": 971280,
+        "minecraft:entity_data": {
+          "id": "minecraft:armor_stand",
+            "NoGravity":1,
+            "Invulnerable":1,
+            "Invisible":1,
+            "Tags":["start_summon_genox3"]
+        }
+      }
+    }
+  }
+  

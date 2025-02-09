@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 95,
+            "data": {
+              "Name": "minecraft:air"
+            }
+          },
+          {
+            "weight": 4,
+            "data": {
+              "Name": "minecraft:packed_ice"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:ice"
+            }
+          }
+        ]
+      }
+    }
+  }
+  

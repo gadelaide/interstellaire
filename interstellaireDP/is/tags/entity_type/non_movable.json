@@ -1,0 +1,20 @@
+{
+    "values": [
+      "minecraft:area_effect_cloud",
+      "minecraft:marker",
+      "minecraft:block_display",
+      "minecraft:painting",
+      "minecraft:text_display",
+      "minecraft:item_display",
+      "minecraft:firework_rocket",
+      "minecraft:eye_of_ender",
+      "minecraft:end_crystal",
+      "minecraft:experience_orb",
+      "minecraft:evoker_fangs",
+      "minecraft:leash_knot",
+      "minecraft:lightning_bolt",
+      "minecraft:llama_spit",
+      "minecraft:ominous_item_spawner"
+    ]
+  }
+  

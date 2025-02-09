@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "is:moon/bunker",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 841803432,
+      "spacing": 12,
+      "separation": 8
+    }
+  }
+  
