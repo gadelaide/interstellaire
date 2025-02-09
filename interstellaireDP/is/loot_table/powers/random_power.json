@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/random_little_powers",
+            "weight": 70
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/random_medium_powers",
+            "weight": 25
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/random_big_powers",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }
+  

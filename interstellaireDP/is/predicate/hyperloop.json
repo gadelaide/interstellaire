@@ -1,0 +1,125 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:any_of",
+        "terms": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "#is:all_glass"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "#is:all_glass"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": "#is:all_glass"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": -1,
+                "offsetY": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "#is:all_glass"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "#is:all_glass"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": 1,
+                "offsetY": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "#is:all_glass"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": "#is:all_glass"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "#is:all_glass"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": 2,
+        "predicate": {
+          "block": {
+            "blocks": "minecraft:iron_block"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "blocks": "minecraft:iron_block"
+          }
+        }
+      }
+    ]
+  }
+  

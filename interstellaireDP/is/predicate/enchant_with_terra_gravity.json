@@ -1,0 +1,18 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "legs": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "id": "is:terra_gravity",
+                "lvl": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  }

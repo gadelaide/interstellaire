@@ -1,0 +1,39 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "predicate": {
+        "can_see_sky": true
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "predicate": {
+        "can_see_sky": true
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "predicate": {
+        "can_see_sky": true
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "predicate": {
+        "can_see_sky": true
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "can_see_sky": true
+      }
+    }
+  ]
+}

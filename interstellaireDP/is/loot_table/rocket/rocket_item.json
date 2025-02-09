@@ -1,0 +1,54 @@
+
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:panda_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "fallback": "Rocket",
+                  "translate": "item.rocket.name",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "fallback": "Place to spawn the rocket",
+                     "translate": "item.rocket.lore1"
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 971201
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:entity_data": {
+                    "id": "minecraft:armor_stand",
+                    "NoGravity": 1,
+                    "Invulnerable": 1,
+                    "Invisible": 1,
+                    "Tags": [
+                      "start_summon_rocket"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

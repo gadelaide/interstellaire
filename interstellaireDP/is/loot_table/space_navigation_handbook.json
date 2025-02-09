@@ -1,0 +1,685 @@
+
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_written_book_pages",
+                "pages": [
+                  [
+                    {
+                      "text": "\n ",
+                      "underlined": false
+                    },
+                    {
+                      "text": "Space Navigation",
+                      "bold": true,
+                      "italic": true
+                    },
+                    {
+                      "text": "\n       ",
+                      "underlined": false
+                    },
+                    {
+                      "text": "Handbook\n\n\n\n",
+                      "bold": true,
+                      "italic": true
+                    },
+                    {
+                      "text": "Summary\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "\n•On-board controls.....2",
+                      "underlined": false,
+                      "clickEvent": {
+                        "action": "change_page",
+                        "value": "2"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "fallback": "Click to open the on-board controls",
+                            "translate": "book.hover.click_controls",
+                            "italic": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\n•Manual....................................3",
+                      "underlined": false,
+                      "clickEvent": {
+                        "action": "change_page",
+                        "value": "3"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "fallback": "Click to open the manual",
+                             "translate": "book.hover.click_manual",
+                            "italic": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\n•List of planets...............5",
+                      "underlined": false,
+                      "clickEvent": {
+                        "action": "change_page",
+                        "value": "5"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "fallback": "Click to open the list of planets",
+                            "translate": "book.hover.click_planets",
+                            "italic": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\n•Oxygen generator......7",
+                      "underlined": false,
+                      "clickEvent": {
+                        "action": "change_page",
+                        "value": "7"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "fallback": "Click to open the oxygen generators guide",
+                             "translate": "book.hover.click_oxygen_generator",
+                            "italic": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\n•Hyperloop........................10",
+                      "underlined": false,
+                      "clickEvent": {
+                        "action": "change_page",
+                        "value": "10"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "fallback": "Click to open the hyperloop guide",
+                             "translate": "book.hover.click_hyperloop",
+                            "italic": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\n•A few tips.........................11",
+                      "underlined": false,
+                      "clickEvent": {
+                        "action": "change_page",
+                        "value": "11"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "fallback": "Click to open the list of tips",
+                             "translate": "book.hover.click_tips",
+                            "italic": true
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "On-board controls of the rocket\n\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "[Take-off]\n\n",
+                      "bold": true,
+                      "color": "dark_green",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger takeoff"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "fallback": "If everything is ready, click to take off",
+                            "translate": "book.hover.click_takeoff",
+                            "italic": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "[Disassemble]\n\n",
+                      "bold": true,
+                      "color": "red",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger disassembly"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "fallback": "Click to disassemble the closest rocket within 20 blocks",
+                            "translate": "book.hover.click_disassemble",
+                            "italic": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "[List of planets]\n",
+                      "bold": true,
+                      "color": "dark_gray",
+                      "clickEvent": {
+                        "action": "change_page",
+                        "value": "5"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "fallback": "Click to open the list of planets",
+                            "translate": "book.hover.click_planets",
+                            "italic": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text":"To check what you need to go on a planet, click on the planet in the list of planets p5",
+                      "bold": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "To travel in space, you will need 3 main ingredients :",
+                      "bold": true
+                    },
+                    {
+                      "text": "\n\n- ",
+                      "bold": true
+                    },
+                    {
+                      "text": "A rocket\n",
+                      "underlined": true
+                    },
+                    {
+                      "text": "It can be crafted with ",
+                      "bold": false
+                    },
+                    {
+                      "text": "3 fire charges",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:fire_charge",
+                          "count" : "3"
+                        }
+                      }
+                    },
+                    {
+                      "text": " in the bottom line, a ",
+                      "bold": false
+                      },
+                    {
+                      "text": "saddle",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:saddle",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": " in the top middle spot and ",
+                      "bold": false
+                    },
+                    {
+                      "text": "5 blocks of iron",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:iron_block",
+                          "count" : "5"
+                        }
+                      }
+                    },
+                    {
+                      "text": " (refer to the recipe book)\n",
+                      "bold": false
+                    },
+                    {
+                      "text": "\n "
+                    }
+                  ],
+                  [
+                    {
+                      "text": "- ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Fuel",
+                      "underlined": true
+                    },
+                    {
+                      "text": "\nPut ",
+                      "bold": false
+                    },
+                    {
+                      "text": "x ",
+                      "bold": false,
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "fallback": "The amount of coal depends on the gravity of the planet you're on (16 for the overworld)",
+                            "translate": "book.hover.amount_coal",
+                            "italic": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "blocks of coal",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:coal_block",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": " in the rocket (open inventory while sitting on the main seat of the rocket)\n\n- ",
+                      "bold": false
+                    },
+                    {
+                      "text": "A destination",
+                      "underlined": true
+                    },
+                    {
+                      "text": "\nWith the fuel, put an item specific to the planet you want to go to. (refer to the list on the next pages)",
+                      "bold": false,
+                      "underlined" : false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "List of the planets you can go to",
+                      "bold": true
+                    },
+                    {
+                      "text": ". Click to check if you're ready to take-off :\n\n",
+                      "bold": false
+                    },
+                    {
+                      "text": "The Overworld",
+                      "underlined": true,
+                      "bold": true,
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger check_liftoff set 2"
+                      }
+                    },
+                    {
+                      "text": "\n",
+                      "bold": false
+                    },
+                    {
+                      "text": "(1 block of grass)",
+                      "bold": false,
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:grass_block",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n",
+                      "bold": false
+                    },
+                    {
+                      "text": "Overworld 2",
+                      "underlined": true,
+                      "clickEvent" : {
+                        "action": "run_command",
+                        "value": "/trigger check_liftoff set 3"
+                      }
+                    },
+                    {
+                      "text": "\n",
+                      "bold": false
+                    },
+                    {
+                      "text": "(2 blocks of dirt)",
+                      "bold": false,
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:dirt",
+                          "count" : "2"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n",
+                      "bold": false
+                    },
+                    {
+                        "text": "Amplified",
+                        "underlined": true,
+                        "clickEvent": {
+                          "action": "run_command",
+                          "value": "/trigger check_liftoff set 4"
+                        }
+                    },
+                    {
+                      "text": "\n",
+                      "bold": false
+                    },
+                    {
+                      "text": "(10 blocks of grass)",
+                      "bold": false,
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:grass_block",
+                          "count" : "10"
+                        }
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Moon",
+                      "underlined": true,
+                      "bold": true,
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger check_liftoff set 5"
+                      }
+                    },
+                    {
+                      "text": "\n",
+                      "bold": false
+                    },
+                    {
+                      "text": "(3 light gray concrete powers)",
+                      "bold": false,
+                      "underlined": false,
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:light_gray_concrete_powder",
+                          "count" : "3"
+                        }
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Oxygen generators",
+                      "bold": true
+                    },
+                    {
+                      "text":" create oxygen in a certain radius allowing you to breath on planets with no oxygen. (You can also use the Oxygen Tank enchantment)\n\n",
+                      "bold": false
+                    },
+                    {
+                      "text":"The craft has the following shape : \n",
+                      "bold": false
+                    },
+                    {
+                      "text": "|"
+                    },
+                    {
+                      "text": " G ",
+                      "color": "gray",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:glass",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": "|"
+                    },
+                    {
+                      "text": " W ",
+                      "color": "blue",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:water_bucket",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": "|"
+                    },
+                    {
+                      "text": " G ",
+                      "color": "gray",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:glass",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": "|\n|"
+                    },
+                    {
+                      "text": " R ",
+                      "color": "red",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:redstone_block",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": "|"
+                    },
+                    {
+                      "text": " S ",
+                      "color": "dark_gray",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:smooth_stone_slab",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": "|"
+                    },
+                    {
+                      "text": " A ",
+                      "color": "gold",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:gold_ingot",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text":"|\n|   ",
+                      "bold": true
+                    },
+                    {
+                      "text":".",
+                      "bold": false,
+                      "color": "white"
+                    },
+                    {
+                      "text":"|   ",
+                      "bold": true
+                    },
+                    {
+                      "text":".",
+                      "bold": false,
+                      "color": "white"
+                    },
+                    {
+                      "text":"|   ",
+                      "bold": true
+                    },
+                    {
+                      "text":".",
+                      "bold": false,
+                      "color": "white"
+                    },
+                    {
+                      "text":"|\n"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "There are 3 different levels of oxygen generators ranging from 1 to 3, affecting the radius of production. If you want a higher-level oxygen gen. replace the ",
+                      "bold": false
+                    },
+                    {
+                      "text": "golden ingot",
+                      "bold": true,
+                      "color": "gold",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:gold_ingot",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": " with a ",
+                      "bold": false 
+                    },
+                    {
+                      "text": "diamond",
+                      "bold": true,
+                      "color": "aqua",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:diamond",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": " or a ",
+                      "bold": false
+                    },
+                    {
+                      "text": "netherite ingot",
+                      "bold": true,
+                      "color": "#31292a",
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:netherite_ingot",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": " in the craft."
+                    }
+                  ],
+                  [
+                    {
+                      "text": "A oxygen gen. uses electrolysis of water so it needs to be charged by throwing a bottle of water or a water bucket on it.\nA bottle of water charges it for 1 day and a bucket of water charges it for 5 days.\nTo be destroyed, you must remove the block below it."
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Hyperloops ",
+                      "bold": true
+                    },
+                    {
+                      "text": "allow you to travel very fast in a tube. The tube must be 2 blocks high, the block above and below the player must be ",
+                      "bold": false
+                    },
+                    {
+                      "text": "iron blocks",
+                      "bold": true,
+                      "hoverEvent": {
+                        "action": "show_item",
+                        "contents": {
+                          "id" : "minecraft:iron_block",
+                          "count" : "1"
+                        }
+                      }
+                    },
+                    {
+                      "text": ". And the sides of the tube must be ",
+                      "bold": false
+                    },
+                    {
+                      "text": "any block of glass",
+                      "bold": true
+                    },
+                    {
+                      "text": "."
+                    }
+                  ],
+                  [
+                    {
+                        "text" : "A few tips :\n",
+                        "bold" : true
+                    },
+                    {
+                        "text" : "- Be sure to have everything you need to come back\n- Expect anything on a new planet\n- Prepare an oxygen generator\n- Charcoal can be transform into regular coal in a crafting table\n- A rocket can carry up to 5 players",
+                        "bold" : false
+                    }
+                  ]
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_book_cover",
+                "title": "Space Navigation Handbook",
+                "generation": 1,
+                "author": "camaga"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

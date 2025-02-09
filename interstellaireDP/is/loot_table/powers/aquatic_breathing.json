@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "Type: ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "water",
+                    "color": "dark_aqua",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "Xp: ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "200",
+                    "color": "red",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Aquatic Breathing",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 1000000
+                },
+                "minecraft:custom_model_data": 971209,
+                "minecraft:custom_data": {
+                  "power_id": 28
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

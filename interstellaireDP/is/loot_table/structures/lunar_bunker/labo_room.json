@@ -1,0 +1,75 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 0,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/random_powers",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:genox/random_genox"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bucket",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 2,
+          "max": 5
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glass_bottle",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 3
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:water_breathing"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

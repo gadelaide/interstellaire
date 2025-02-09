@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 4,
+          "max": 8
+        },
+        "entries": [
+          {
+            "type": "minecraft:tag",
+            "name": "minecraft:creeper_drop_music_discs",
+            "expand": true,
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+  

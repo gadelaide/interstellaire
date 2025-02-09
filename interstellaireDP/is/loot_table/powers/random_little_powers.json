@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/exposive_ball"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/extinguisher"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/health_regen"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/icy_throw"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/item_attractor"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/sparkling_ray"
+          }
+        ]
+      }
+    ]
+  }
+  

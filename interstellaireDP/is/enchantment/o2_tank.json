@@ -1,0 +1,87 @@
+{
+  "description": [
+    {
+      "translate": "enchant.o2_tank",
+      "fallback": "Oxygen Tank"
+    }
+  ],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 15
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 20
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:bubble_pop"
+          },
+          "horizontal_position": {
+            "type": "in_bounding_box"
+          },
+          "vertical_position": {
+            "type": "in_bounding_box"
+          },
+          "horizontal_velocity": {},
+          "vertical_velocity": {},
+          "speed": 0
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[no_o2_if_no_enchant]}"
+            }
+          },
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "effect": {
+          "type": "minecraft:damage_item",
+          "amount": 1
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": {
+              "type": "minecraft:enchantment_level",
+              "amount": {
+                "type": "minecraft:fraction",
+                "numerator": 1,
+                "denominator": {
+                  "type": "minecraft:linear",
+                  "base": 500,
+                  "per_level_above_first": 500
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[no_o2_if_no_enchant]}"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

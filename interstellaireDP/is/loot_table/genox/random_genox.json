@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:genox/genox_lvl1_item",
+            "weight": 80
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:genox/genox_lvl1_empty_item",
+            "weight": 80
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:genox/genox_lvl2_item",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:genox/genox_lvl2_empty_item",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:genox/genox_lvl3_item",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:genox/genox_lvl3_empty_item",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+  

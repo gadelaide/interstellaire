@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:enchants/o2_tank",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:enchants/terra_gravity",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+  

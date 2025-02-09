@@ -1,0 +1,78 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "value": "is:powers/aquatic_breathing"
+            }
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/burning_ray"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/ender_look"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/explo_beam"
+          },
+          { 
+            "type": "minecraft:loot_table",
+            "value": "is:powers/fire_launcher"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/flash_move"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/giant_leap"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/health_halo"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/ice_trap"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/icy_aura"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/instant_invulnerability"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/lightning"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/proj_barrier"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/shock_wave"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/strip_miner"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/vertical_ascend"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/volley_arrow"
+          }
+        ]
+      }
+    ]
+  }
+  

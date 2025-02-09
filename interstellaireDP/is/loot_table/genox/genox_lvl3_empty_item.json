@@ -1,0 +1,62 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cow_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "fallback": "Oxygen generator (lvl 3)",
+                  "translate": "block.minecraft.oxygen_generator_3",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "fallback": "Can generate oxygen up to 1000 blocks",
+                    "translate": "block.minecraft.oxygen_generator_3.lore1"
+                  },
+                  {
+                    "fallback": "(Might not work if in unloaded chunks)",
+                     "translate": "block.minecraft.oxygen_generator_3.lore2"
+                  },
+                  {
+                    "fallback": "(Empty)",
+                    "translate": "block.minecraft.oxygen_generator_empty"
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 971270
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "minecraft:entity_data": {
+                    "id": "minecraft:armor_stand",
+                    "NoGravity": 1,
+                    "Invulnerable": 1,
+                    "Invisible": 1,
+                    "Tags": [
+                      "start_summon_genox3",
+                      "start_empty"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

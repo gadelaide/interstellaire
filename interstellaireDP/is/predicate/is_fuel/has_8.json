@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "vehicle": {
+        "type": "minecraft:trader_llama",
+        "nbt": "{Tags:[rocket_seat1]}",
+        "slots": {
+          "horse.*": {
+            "items": "minecraft:coal_block",
+            "count": 8
+          }
+        }
+      }
+    }
+  }

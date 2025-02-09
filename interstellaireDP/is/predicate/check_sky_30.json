@@ -1,0 +1,281 @@
+[
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 0,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 2,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 3,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 4,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 5,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 6,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 7,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 8,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 9,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 10,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 11,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 12,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 13,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 14,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 15,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 16,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 17,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 18,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 19,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 20,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 21,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 22,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 23,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 24,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 25,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 26,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 27,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 28,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 29,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 30,
+      "predicate": {
+        "block": {
+          "blocks": "#is:airs"
+        }
+      }
+    }
+  ]

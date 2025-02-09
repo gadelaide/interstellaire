@@ -1,0 +1,22 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/depth_scan"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/meteor_strike"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "is:powers/storm_invoker"
+          }
+        ]
+      }
+    ]
+  }
+  

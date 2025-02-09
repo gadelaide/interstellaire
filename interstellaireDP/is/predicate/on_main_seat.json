@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "vehicle": {
+        "type": "minecraft:trader_llama",
+        "nbt": "{Tags:[rocket_seat1]}"
+      }
+    }
+  }
+  

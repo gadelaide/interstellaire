@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "Type: ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "fire",
+                    "color": "dark_red",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "Xp: ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "60/s",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "Range: ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "8 blocks",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Burning Ray",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 1000000
+                },
+                "minecraft:custom_model_data": 971203,
+                "minecraft:custom_data": {
+                  "power_id": 11
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
