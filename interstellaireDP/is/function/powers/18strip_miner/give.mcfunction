@@ -1,0 +1,1 @@
+loot give @s loot is:powers/strip_miner

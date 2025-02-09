@@ -1,0 +1,1 @@
+loot give @s loot is:powers/meteor_strike

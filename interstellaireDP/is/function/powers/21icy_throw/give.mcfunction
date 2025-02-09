@@ -1,0 +1,1 @@
+loot give @s loot is:powers/icy_throw
