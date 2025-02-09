@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:firework_star",
+            "count": 1,
+            "components": {
+              "minecraft:custom_data": {
+                "power_id":16
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "is:powers/16glacial_wave/check"
+    }
+  }
+  
