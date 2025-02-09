@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:panda_spawn_egg",
+      "count": 1,
+      "components": {
+        "minecraft:custom_name": "{\"italic\":false,\"text\":\"Rocket\"}",
+        "minecraft:lore": [
+          "{\"text\":\"Place to spawn the rocket\"}"
+        ],
+        "minecraft:rarity": "uncommon",
+        "minecraft:custom_model_data": 971201,
+        "minecraft:entity_data": {
+          "id": "minecraft:armor_stand"
+        }
+      }
+    },
+    "title": "Aerospace engineer",
+    "description": "Craft a rocket"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "is:rocket"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}
