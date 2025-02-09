@@ -1,0 +1,22 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/firework_star",
+        "layer1": "item/firework_star_overlay"
+    },
+    
+    "overrides": [
+    {"predicate": {"custom_model_data":971201}, "model": "item/custom/power_lightning"},
+    {"predicate": {"custom_model_data":971202}, "model": "item/custom/power_protection"},
+    {"predicate": {"custom_model_data":971203}, "model": "item/custom/power_fire"},
+    {"predicate": {"custom_model_data":971204}, "model": "item/custom/power_regeneration"},
+    {"predicate": {"custom_model_data":971205}, "model": "item/custom/power_move"},
+    {"predicate": {"custom_model_data":971206}, "model": "item/custom/power_blast"},
+    {"predicate": {"custom_model_data":971207}, "model": "item/custom/power_teleportation"},
+    {"predicate": {"custom_model_data":971208}, "model": "item/custom/power_vanish"},
+    {"predicate": {"custom_model_data":971209}, "model": "item/custom/power_water"},
+    {"predicate": {"custom_model_data":971210}, "model": "item/custom/power_mining"},
+    {"predicate": {"custom_model_data":971211}, "model": "item/custom/power_frost"}
+
+    ]
+}
