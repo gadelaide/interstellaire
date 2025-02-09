@@ -1,0 +1,6 @@
+{
+    "message_id": "freezing_by_wave",
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "freezing"
+  }
