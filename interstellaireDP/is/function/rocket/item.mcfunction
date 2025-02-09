@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot is:rocket/rocket_item
